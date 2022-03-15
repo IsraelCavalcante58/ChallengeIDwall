@@ -191,10 +191,11 @@ a, a:visited{
 .status{
   display: flex;  
   justify-content: space-around;
-  width: 164px;
+  width: auto;
   height: 56px;
   background-color: #E5E5E5;
-  border-radius: 10px;
+  border-radius: 28px;
+  padding: ;
   margin: 20px 40px;
 }
 
@@ -205,12 +206,13 @@ a, a:visited{
 .status-icon{
   margin-top: 12px;
   font-size: 30px;
-  position: absolute;
+  position: relative;
+  align-self: flex-start;
     
 }
 .status-text{
   margin-left: 16px;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 300;
 }
 aside a div{
