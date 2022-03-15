@@ -1,23 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 
-:root {
-  --theme-bg-color: rgba(16 18 27 / 40%);
-  --border-color: rgba(113 119 144 / 25%);
-  --theme-color: #f9fafb;
-  --inactive-color: rgb(113 119 144 / 78%);
-  --body-font: "Poppins", sans-serif;
-  --hover-menu-bg: rgba(12 15 25 / 30%);
-  --content-title-color: #999ba5;
-  --content-bg: rgb(146 151 179 / 13%);
-  --button-inactive: rgb(249 250 251 / 55%);
-  --dropdown-bg: #21242d;
-  --dropdown-hover: rgb(42 46 60);
-  --popup-bg: rgb(22 25 37);
-  --search-bg: #14162b;
-  --overlay-bg: rgba(36, 39, 59, 0.3);
-  --scrollbar-bg: rgb(1 2 3 / 40%);
-}
 
 /********** Reset css **********/
 *{
@@ -153,7 +136,7 @@ a, a:visited{
   width: 100%;
   height: 100%;
   border: none;
-  background-color: var(--search-bg);
+  background-color: #14162b;
   border-radius: 4px;
   font-family: var(--body-font);
   font-size: 15px;
@@ -164,17 +147,16 @@ a, a:visited{
   background-size: 14px;
   background-repeat: no-repeat;
   background-position: 16px 48%;
-  color: var(--theme-color);
+  color: #f9fafb;
 }
 .search-bar input::-moz-placeholder {
-  font-family: var(--body-font);
-  color: var(--inactive-color);
+  color: rgb(113 119 144 / 78%);
   font-size: 15px;
   font-weight: 500;
 }
 .search-bar input:-ms-input-placeholder {
   font-family: var(--body-font);
-  color: var(--inactive-color);
+  color: rgb(113 119 144 / 78%);
   font-size: 15px;
   font-weight: 500;
 }
