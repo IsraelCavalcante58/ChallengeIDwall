@@ -28,7 +28,6 @@ a, a:visited{
 
 /********** Barra de navegação lateral **********/
 .logo{
-  
   width: 200px;
   height: 100px;
   margin: 0 25px;
@@ -55,7 +54,6 @@ a, a:visited{
   font-size: 30px;
 }
 
-
 .navbar ul{
   margin-top: 132px;
 }
@@ -66,11 +64,6 @@ a, a:visited{
   padding: 10px;
   color: #E5E5E5;
   font-size: 1.5rem;
-}
-
-.navbar ul li:hover{
-  box-shadow: 5px 5px 7px -2px #000000;
-  font-weight: 600;
 }
 
 .menu-icon{
