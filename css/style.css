@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@300&display=swap');
 
-
-
 /********** Reset css **********/
 *{
   font-family: 'Inter', sans-serif;
@@ -28,8 +26,6 @@ a, a:visited{
   justify-content: space-between;
 }
 
-
-
 /********** Barra de navegação lateral **********/
 .logo{
   
@@ -44,6 +40,7 @@ a, a:visited{
   width: 250px;
   background-color: #6300ff;
 }
+
 .header-navbar{
   z-index: 1;
   position: absolute;
@@ -51,6 +48,7 @@ a, a:visited{
   width: 250px;
   height: 100px;
 }
+
 .header-navbar > span{
   margin-top: 25px;
   display: inline-block;
@@ -62,38 +60,57 @@ a, a:visited{
   margin-top: 132px;
 }
 .navbar ul li{
-  font-weight: 400;
-  margin-top: 15px;
+  font-weight: 300 light;
+  height: 50px;
+  text-align: start;
+  padding: 10px;
   color: #E5E5E5;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
+
 .navbar ul li:hover{
   box-shadow: 5px 5px 7px -2px #000000;
   font-weight: 600;
-
 }
+
+.menu-icon{
+  height: 24px;
+  width: 24px;
+  margin-right: 8px;
+  text-align: start;
+  color: #E5E5E5;
+}
+
+.navbar ul li:hover{
+  background-color: #5400AF;
+  color: #FFF;
+  font-weight: 700;
+}
+
 .navbar ul li{
   padding-bottom: 15px;
   border-bottom: 1px solid rgba(235, 228, 228, 0.5);
 }
 
 .logout{
-  left: 67px;
-  bottom: 0;
+  left: 0;
+  bottom: 24px;
+  text-align: start;
   position: absolute;
   display: inline-block;
-  font-weight: 400;
+  font-weight: 300;
   color: #E5E5E5;
-  font-size: 24px;
-  width: 100px;
-  height: 40px;
-  border: 2px solid white;
-  background: rgba(97, 0, 252, 0.973);
-  border-radius: 10px;
+  font-size: 1.5rem;
+  padding: 10px;
+  width: 100%;
+  height: 50px;
+}
+.logout-icon{
+margin-right: 16px;
 }
 
 .logout:hover{
-  background-color: #66666628;
+  background-color: #5400AF;
 }
 /********** Fim Barra de navegação lateral ********/
 
@@ -105,6 +122,7 @@ a, a:visited{
   width: calc(100% - 250px);
   background-color: white;
 }
+
 .header-main-content{
   width: 100%;
   height: 100px;
@@ -112,6 +130,7 @@ a, a:visited{
   justify-content: space-between; 
   padding: 20px;
 }
+
 .header-main-content-description{
   font-size: 2.5rem;
   font-weight: bold;
@@ -165,8 +184,8 @@ a, a:visited{
   max-width: 400px;
   padding-left: 16px;
   border-radius: 4px;
-  
 }
+
 .search-bar input {
   width: 100%;
   height: 100%;
@@ -184,17 +203,20 @@ a, a:visited{
   background-position: 16px 48%;
   color: black;
 }
+
 .search-bar input::-moz-placeholder {
   color: rgb(113 119 144 / 78%);
   font-size: 15px;
   font-weight: 500;
 }
+
 .search-bar input:-ms-input-placeholder {
   font-family: var(--body-font);
   color: rgb(113 119 144 / 78%);
   font-size: 15px;
   font-weight: 500;
 }
+
 .search-bar input::placeholder {
   font-family: var(--body-font);
   font-size: 15px;
@@ -239,6 +261,7 @@ a, a:visited{
   font-weight: 300;
   color: #000;
 }
+
 aside a div{
   color: black; 
 }
@@ -256,11 +279,13 @@ aside a div{
   pointer-events: none;
   transition: all 0.3s;
 }
+
 .modal-window:target {
   visibility: visible;
   opacity: 1;
   pointer-events: auto;
 }
+
 .modal-window > div {
   width: 400px;
   position: absolute;
@@ -270,9 +295,11 @@ aside a div{
   padding: 2em;
   background: rgb(206, 181, 181);
 }
+
 .modal-window header {
   font-weight: bold;
 }
+
 .modal-window h1 {
   font-size: 150%;
   margin: 0 0 15px;
@@ -289,10 +316,10 @@ aside a div{
   width: 70px;
   text-decoration: none;
 }
+
 .modal-close:hover {
   color: black;
 }
-
 
 .modal-window > div {
   border-radius: 1rem;
