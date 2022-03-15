@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 *{
+    font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -26,7 +29,7 @@ a, a:visited{
 .navbar{
     text-align: center;
     width: 250px;
-    background-color: #7900fd;
+    background-color: #6300ff;
 }
 .header-navbar{
     position: absolute;
@@ -45,9 +48,10 @@ a, a:visited{
         margin-top: 132px;
 }
 .navbar ul li{
+        font-weight: 100;
         margin-top: 15px;
-        color: white;
-        font-size: 30px;
+        color: #E5E5E5;
+        font-size: 24px;
 }
 .navbar ul li:hover{
     box-shadow: 5px 5px 7px -2px #000000;
@@ -83,7 +87,7 @@ a, a:visited{
 
 .navbar ul li{
     padding-bottom: 15px;
-    border-bottom: 1px solid #EBE4E4;
+    border-bottom: 0.01px solid rgba(235, 228, 228, 0.5);
 }
 .status{
     display: flex;
