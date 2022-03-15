@@ -207,9 +207,9 @@ a, a:visited{
   justify-content: space-around;
   width: auto;
   height: 56px;
-  background-color: #E5E5E5;
+  background-color: #F3F2FF;
+  box-shadow: 2px 3px 4px  #00000026;
   border-radius: 28px;
-  padding: ;
   margin: 20px 40px;
 }
 
@@ -222,12 +222,14 @@ a, a:visited{
   font-size: 30px;
   position: relative;
   align-self: flex-start;
+  color: #F5222D;
     
 }
 .status-text{
   margin-left: 16px;
   font-size: 28px;
   font-weight: 300;
+  color: #000;
 }
 aside a div{
   color: black; 
