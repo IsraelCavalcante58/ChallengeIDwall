@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,39 +8,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monitor</title>
 </head>
+
 <body>
 
     <div class="container ">
         <header class="header-navbar">
             <img class="logo" src=".//imagens/Logotipo idwall.svg" alt=""> <!-- Aqui será a logo-->
         </header>
-        
+
         <nav class="navbar">
             <ul>
-               <a href=""><li>Protocolo</li></a>
-                <a href=""><li>Documento</li></a>
-                <a><li>Usuários</li></a>
-                <a href=""><li>Fontes</li></a>
-                <a href=""><li>Matrizes</li></a>
-                <a href=""><li>Regras</li></a>
-                <a href=""><li>Atributos</li></a>
-                <a href=""><li>Monitor</li></a>
-                <a href=""><li>Organizações</li></a>
+                <a href="">
+                    <li>Protocolo</li>
+                </a>
+                <a href="">
+                    <li>Documento</li>
+                </a>
+                <a>
+                    <li>Usuários</li>
+                </a>
+                <a href="">
+                    <li>Fontes</li>
+                </a>
+                <a href="">
+                    <li>Matrizes</li>
+                </a>
+                <a href="">
+                    <li>Regras</li>
+                </a>
+                <a href="">
+                    <li>Atributos</li>
+                </a>
+                <a href="">
+                    <li>Monitor</li>
+                </a>
+                <a href="">
+                    <li>Organizações</li>
+                </a>
             </ul>
         </nav>
         <main class="main-content">
             <header class="header-main-content">
                 <h2 class="header-main-content-description">Monitor</h2>
             </header>
-                <aside>
+            <aside>
+
+                <a href="#open-modal">
                     <div class="status">
-                        <i class="fa-solid fa-triangle-exclamation status-icon"><span class="status-text">Status</span></i>
+                        <i class="fa-solid fa-triangle-exclamation status-icon"><span
+                                class="status-text">Status</span></i>
                     </div>
-                </aside>
+                </a>
+                <div id="open-modal" class="modal-window">
+                    <div>
+                        <a href="#" title="Close" class="modal-close">Fechar</a>
+                        <h1>Serviços que não estão disponíveis: </h1>
+                        <p>🔴 AntecedentesCE</p>
+                        <p>🔴 AntecedentesDF</p>
+                        <p>🔴 AntecedentesMT</p>
+                        <p>🔴 AntecedentesRO</p>
+                        <p>🔴 AntecedentesTO</p>
+                        <p>🔴 CADICON</p>
+                        <p>🔴 InfraçõesDetranCE</p>
+                        <p>🔴 InfraçõesDetranPI</p>
+                        <p>🔴 InfraçõesDetranSE</p>
+                        <p>🔴 InfraçõesPrefeituraSP</p>
+                        <p>🔴 InfraçõesRS</p>
+                        <p>🔴 JuntaComercialDF</p>
+                        <p>🔴 MultasPoliciaRodoviariaFederal</p>
+                        <p>🔴 NovoAntecedentesMT</p>
+                        <p>🔴 RestituiçãoReceitaFederal</p>
+                        <p>🔴 SIAFI</p>
+                        <p>🔴 SSDMEC</p>
+                        <p>🔴 VeiculosDetranSP</p>
+
+
+
+
+
+                    </div>
+                </div>
+
+            </aside>
         </main>
 
     </div>
-<script src="https://kit.fontawesome.com/67f01a5142.js"></script>
+    <script src="./Javascript/dropdown.js"></script>
+    <script src="https://kit.fontawesome.com/67f01a5142.js"></script>
 </body>
 
 </html>
