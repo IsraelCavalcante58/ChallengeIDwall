@@ -46,7 +46,6 @@ a, a:visited{
   background-color: #fff;
   width: 250px;
   height: 100px;
-  box-shadow: 5px 5px 7px -2px #000000;
 }
 .header-navbar > span{
   margin-top: 25px;
