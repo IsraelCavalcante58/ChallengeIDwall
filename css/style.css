@@ -10,6 +10,7 @@
 
 html, body{
   height: 100%;
+  
 }
 
 a, a:visited{
@@ -20,13 +21,14 @@ a, a:visited{
 
 .container{
   display: flex;
-  height: 100%;
+  min-height: 100vh;
   width: 100%;
   justify-content: space-between;
 }
 
 /********** Barra de navegação lateral **********/
 .logo{
+  
   width: 200px;
   height: 100px;
   margin: 0 25px;
@@ -53,6 +55,7 @@ a, a:visited{
   font-size: 30px;
 }
 
+
 .navbar ul{
   margin-top: 132px;
 }
@@ -63,6 +66,11 @@ a, a:visited{
   padding: 10px;
   color: #E5E5E5;
   font-size: 1.5rem;
+}
+
+.navbar ul li:hover{
+  box-shadow: 5px 5px 7px -2px #000000;
+  font-weight: 600;
 }
 
 .menu-icon{
@@ -131,15 +139,17 @@ margin-right: 16px;
 }
 
 .container-main-content{
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 96%;
   height: calc(100% - 373px);
-  background-color: #E5E5E5;
-  margin-left: 41px;
-  margin-top: 33px;
+  background-color: #FAFAFA;
+  margin-left: 2.57rem;
+  margin-top: 2rem;
   border-radius: 10px;
+  box-shadow: 2px 3px 4px  #00000026;
 }
 
 .header-container-main-content{
@@ -147,6 +157,7 @@ margin-right: 16px;
   width: 100%;
   height: 80px;
   background-color: #6B31FF;
+
 }
 
 .header-container-text{
@@ -159,6 +170,7 @@ margin-right: 16px;
 }
 
 /* Conteudo Principal */
+
 
 /* Searchbar */
 
@@ -317,4 +329,35 @@ aside a div{
   margin-bottom: 15px;
 }
 
-/********** Fim Status **********/
+/***************** Fim Status *********************/
+
+
+/********** Início Consultas em Análise  **********/
+
+
+.footer-content{
+  display: flex;
+  height: 100px;
+  margin-left: 2.57rem;
+  width: 96%;
+  margin-top: 0.9rem;
+  box-shadow: 2px 3px 4px  #00000026;
+  border-radius: 10px;
+  background-color: #6B31FF;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-content-text{
+  font-size: 2.5rem;
+  color: white;
+  font-weight: bold;
+  margin-left:1rem;
+}
+
+.arrow-icon{
+  font-size: 3rem;
+ position: absolute;
+ margin-left: 30rem;
+ color: black;
+}
