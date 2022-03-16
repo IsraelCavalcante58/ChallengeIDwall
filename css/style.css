@@ -479,7 +479,7 @@ margin-right: 16px;
          background-color: white;
     }
     .spinner-inactive{
-      color: black;
+      background-color: black !important;
     }
      .horizontal {
          transition: all 0.3s;
