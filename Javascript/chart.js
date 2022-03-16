@@ -17,7 +17,7 @@ var options = {
             },
             legend: {
                 show: false
-            },
+            }
         },
         breakpoint: 858,
         options: {

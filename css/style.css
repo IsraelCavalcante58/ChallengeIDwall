@@ -314,17 +314,17 @@ margin-right: 16px;
 
 /* Chart Conteúdo Principal */
 
+
+
 .chart-container{
-  position: relative;
   display: flex;
   justify-content: space-between;
   align-self: center;
   padding-bottom: 4rem;
-  padding-top: 5rem;
+  padding-top: 10rem;
   text-align: center;
 }
 .content-chart{
-  position: relative;
   display: flex;
   flex-direction: column;
 
