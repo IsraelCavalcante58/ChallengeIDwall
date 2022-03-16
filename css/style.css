@@ -263,7 +263,6 @@ margin-right: 16px;
 }
 
 .header-main-content{
-
   width: 100%;
   height: 100px;
   background-color: #262626;
@@ -279,36 +278,35 @@ margin-right: 16px;
 }
 
 .container-main-content{
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 96%;
+  width: 94%;
   height: calc(100% - 373px);
   background-color: #FAFAFA;
-  margin-left: 2.57rem;
+  margin: auto;
   margin-top: 2rem;
   border-radius: 10px;
   box-shadow: 2px 3px 4px  #00000026;
 }
 
 .header-container-main-content{
+  display: inline-block;
   position: relative;
   width: 100%;
-  height: 80px;
+  height: 60px;
   background-color: #6B31FF;
   border-radius: 10px 10px 0 0;
-
-
 }
 
 .header-container-text{
-  top: 17%;
   position: absolute;
-  left: 43%;
-  font-size: 2.5rem;
+  margin-left: auto;
+  font-size: 2.0rem;
+  left: 50%;
+  top: 20%;
   color: white;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 /* Conteudo Principal */
@@ -341,12 +339,11 @@ margin-right: 16px;
 .search-bar {
   margin-left: 10px;
   position: absolute;
-  margin-top: 21px;
+  margin-top: 10px;
   height: 40px;
   display: flex;
   width: 100%;
-  max-width: 400px;
-  padding-left: 16px;
+  max-width: 300px;
   border-radius: 4px;
 }
 
@@ -399,10 +396,10 @@ margin-right: 16px;
   display: flex;  
   justify-content: space-around;
   width: 28rem;
-  height: 56px;
+  height: 40px;
   background-color: #F3F2FF;
   box-shadow: 2px 3px 4px  #00000026;
-  border-radius: 28px;
+  border-radius: 20px;
   margin: 20px 40px;
 }
 
@@ -411,7 +408,7 @@ margin-right: 16px;
 }
 
 .status-icon{
-  margin-top: 12px;
+  margin-top: 6px;
   font-size: 30px;
   position: relative;
   align-self: flex-start;
@@ -497,12 +494,11 @@ aside a div{
 
 /********** Início Consultas em Análise  **********/
 
-
 .footer-content{
   display: flex;
-  height: 100px;
-  margin-left: 2.57rem;
-  width: 96%;
+  height: 60px;
+  margin: auto;
+  width: 94%;
   margin-top: 0.9rem;
   box-shadow: 2px 3px 4px  #00000026;
   border-radius: 10px;
@@ -512,9 +508,9 @@ aside a div{
 }
 
 .footer-content-text{
-  font-size: 2.5rem;
+  font-size: 2.0rem;
   color: white;
-  font-weight: bold;
+  font-weight: 500;
   margin-left:1rem;
 }
 
@@ -525,8 +521,150 @@ aside a div{
  color: black;
 }
 
+/* Navegação */
+.logo{
+  
+  width: 200px;
+  height: 100px;
+  margin: 0 25px;
+}
 
+.menu-icon{
+  height: 24px;
+  width: 24px;
+  margin-right: 8px;
+  text-align: start;
+  color: #E5E5E5;
+}
 
+.navbar ul li:hover{
+  background-color: #5400AF;
+  color: #FFF;
+  font-weight: 700;
+}
 
+.logout-icon{
+margin-right: 16px;
+}
+
+.logout:hover{
+  background-color: #5400AF;
+}
+/* Fim navegação */
+
+ #sidebarMenu {
+        top: 0px;
+         z-index: 98;
+         height: 100vh;
+         position: fixed;
+         left: 0;
+         transform: translateX(-250px);
+         transition: transform 250ms ease-in-out;
+        text-align: center;
+        width: 250px;
+        background-color: #6300ff;
+    }
+     .sidebarMenuInner{
+         margin:0;
+         padding:0;
+         border-top: 1px solid rgba(255, 255, 255, 0.10);
+    }
+     .sidebarMenuInner li{
+         list-style: none;
+         color: white;
+         padding: 20px;
+         cursor: pointer;
+         border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+    }
+     .sidebarMenuInner li span{
+         display: block;
+         font-size: 14px;
+         color: rgba(255, 255, 255, 0.50);
+    }
+     .sidebarMenuInner li a{
+         color: white;
+         text-transform: uppercase;
+         font-weight: bold;
+         cursor: pointer;
+         text-decoration: none;
+    }
+     input[type="checkbox"]:checked ~ #sidebarMenu {
+         transform: translateX(0);
+    }
+     input[type=checkbox] {
+         transition: all 0.3s;
+         box-sizing: border-box;
+         display: none;
+    }
+     .sidebarIconToggle {
+        
+         transition: all 0.3s;
+         box-sizing: border-box;
+         cursor: pointer;
+         position: fixed;
+         z-index: 99;
+         height: 100%;
+         width: 100%;
+         top: 36px;
+         left: 15px;
+         height: 22px;
+         width: 22px;
+    
+    }
+     .spinner {
+         transition: all 0.3s;
+         box-sizing: border-box;
+         position: absolute;
+         height: 3px;
+         width: 100%;
+         background-color: white;
+    }
+    .spinner-inactive{
+      background-color: black !important;
+    }
+     .horizontal {
+         transition: all 0.3s;
+         box-sizing: border-box;
+         position: relative;
+         float: left;
+         margin-top: 3px;
+    }
+     .diagonal.part-1 {
+         position: relative;
+         transition: all 0.3s;
+         box-sizing: border-box;
+         float: left;
+    }
+     .diagonal.part-2 {
+         transition: all 0.3s;
+         box-sizing: border-box;
+         position: relative;
+         float: left;
+         margin-top: 3px;
+    }
+     input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
+         transition: all 0.3s;
+         box-sizing: border-box;
+         opacity: 0;
+    }
+     input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
+         transition: all 0.3s;
+         box-sizing: border-box;
+         transform: rotate(135deg);
+         margin-top: 8px;
+    }
+     input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
+         transition: all 0.3s;
+         box-sizing: border-box;
+         transform: rotate(-135deg);
+         margin-top: -9px;
+    }
+     .logo-mobile-animacao{
+         color: black;
+         font-family: poetsenone;
+         margin-left: 45%;
+         font-size: 30px;
+         margin-top: 10px;
+    }
 
 
