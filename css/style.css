@@ -257,6 +257,8 @@ margin-right: 16px;
 
 /********** Conteúdo Principal **********/
 
+
+
 .main-content{
   width: 100%;
   background-color: white;
@@ -303,7 +305,7 @@ margin-right: 16px;
   position: absolute;
   margin-left: auto;
   font-size: 2.0rem;
-  left: 50%;
+  left: 46%;
   top: 20%;
   color: white;
   font-weight: 500;
@@ -601,7 +603,7 @@ margin-right: 16px;
          transition: all 0.3s;
          box-sizing: border-box;
          cursor: pointer;
-         position: fixed;
+         position: absolute;
          z-index: 99;
          height: 100%;
          width: 100%;
