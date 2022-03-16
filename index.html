@@ -11,45 +11,55 @@
 
 <body>
     <div class="container ">
-        <header class="header-navbar">
-            <img class="logo" src=".//imagens/Logotipo idwall.svg" alt=""> <!-- Aqui será a logo-->
-        </header>
 
-        <nav class="navbar">
-            <ul>
-                <a href="">
-                    <li><img class="menu-icon" src=".//imagens/ic_protocol.svg">Protocolo</li>
-                </a>
-                <a href="">
-                    <li><img class="menu-icon" src=".//imagens/ic_document.svg">Documento</li>
-                </a>
-                <a href="">
-                    <li><img class="menu-icon" src=".//imagens/ic_users.svg">Usuários</li>
-                </a>
-                <a href="">
-                    <li><img class="menu-icon" src=".//imagens/ic_fonts.svg">Fontes</li>
-                </a>
-                <a href="">
-                    <li><img class="menu-icon" src=".//imagens/ic_matrix.svg">Matrizes</li>
-                </a>
-                <a href="">
-                    <li><img class="menu-icon" src=".//imagens/ic_rules.svg">Regras</li>
-                </a>
-                <a href="">
-                    <li><img class="menu-icon" src=".//imagens/ic_attributes.svg">Atributos</li>
-                </a>
-                <a href="">
-                    <li><img class="menu-icon" src=".//imagens/ic_monitor.svg">Monitor</li>
-                </a>
-                <a href="">
-                    <li><img class="menu-icon" src=".//imagens/ic_organization.svg">Organizações</li>
-                </a>
-            </ul>
-            <div class="logout">
-                <span class="fa-solid fa-arrow-right-from-bracket logout-icon"> <a href="#"></span><span
-                    class="">Sair</span></a>
-            </div>
-        </nav>
+        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+        <label for="openSidebarMenu" class="sidebarIconToggle">
+            <div id="spinner" class="spinner diagonal part-1"></div>
+            <div id="spinner"  class="spinner horizontal"></div>
+            <div id="spinner"  class="spinner diagonal part-2"></div>
+        </label>
+
+        <div id="sidebarMenu">
+
+            <nav class="navbar sidebarMenuInner">
+                <header class="header-navbar">
+                    <img class="logo" src=".//imagens/Logotipo idwall.svg" alt=""> <!-- Aqui será a logo-->
+                </header>
+                <ul>
+                    <a href="">
+                        <li><img class="menu-icon" src=".//imagens/ic_protocol.svg">Protocolo</li>
+                    </a>
+                    <a href="">
+                        <li><img class="menu-icon" src=".//imagens/ic_document.svg">Documento</li>
+                    </a>
+                    <a href="">
+                        <li><img class="menu-icon" src=".//imagens/ic_users.svg">Usuários</li>
+                    </a>
+                    <a href="">
+                        <li><img class="menu-icon" src=".//imagens/ic_fonts.svg">Fontes</li>
+                    </a>
+                    <a href="">
+                        <li><img class="menu-icon" src=".//imagens/ic_matrix.svg">Matrizes</li>
+                    </a>
+                    <a href="">
+                        <li><img class="menu-icon" src=".//imagens/ic_rules.svg">Regras</li>
+                    </a>
+                    <a href="">
+                        <li><img class="menu-icon" src=".//imagens/ic_attributes.svg">Atributos</li>
+                    </a>
+                    <a href="">
+                        <li><img class="menu-icon" src=".//imagens/ic_monitor.svg">Monitor</li>
+                    </a>
+                    <a href="">
+                        <li><img class="menu-icon" src=".//imagens/ic_organization.svg">Organizações</li>
+                    </a>
+                </ul>
+                <div class="logout">
+                    <span class="fa-solid fa-arrow-right-from-bracket logout-icon"> <a href="#"></span><span
+                        class="">Sair</span></a>
+                </div>
+            </nav>
+        </div>
         <main class="main-content">
             <header class="header-main-content">
                 <h2 class="header-main-content-description">Monitor</h2>
@@ -98,12 +108,14 @@
             </section>
             <!-- Apesar de estar com footer -->
             <section class="footer-content">
-                <a href=""><span class="footer-content-text">Consultas em Análise<i class="fa-solid fa-angle-up arrow-icon"></i></span></a>
+                <a href=""><span class="footer-content-text">Consultas em Análise<i
+                            class="fa-solid fa-angle-up arrow-icon"></i></span></a>
             </section>
         </main>
-    
+
     </div>
     <script src="./Javascript/javascript.js"></script>
+    <script src="./Javascript/menu-slide.js"></script>
     <script src="https://kit.fontawesome.com/67f01a5142.js"></script>
 
 </body>
