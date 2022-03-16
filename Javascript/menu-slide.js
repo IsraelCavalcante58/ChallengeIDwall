@@ -1,4 +1,4 @@
-window.onload = function(){
+
     var botaoMenu = document.getElementById('openSidebarMenu');
     var spinner1 = document.getElementById('spinner1');
     var spinner2 = document.getElementById('spinner2');
@@ -11,4 +11,3 @@ window.onload = function(){
         spinner2.classList.toggle('spinner-inactive')
         spinner3.classList.toggle('spinner-inactive')
     }
-}

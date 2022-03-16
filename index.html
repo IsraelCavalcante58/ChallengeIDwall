@@ -15,8 +15,8 @@
         <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
         <label for="openSidebarMenu" class="sidebarIconToggle">
             <div id="spinner1" class="spinner diagonal part-1"></div>
-            <div id="spinner2"  class="spinner horizontal"></div>
-            <div id="spinner3"  class="spinner diagonal part-2"></div>
+            <div id="spinner2" class="spinner horizontal"></div>
+            <div id="spinner3" class="spinner diagonal part-2"></div>
         </label>
 
         <div id="sidebarMenu">
@@ -48,7 +48,7 @@
                         <li><img class="menu-icon" src=".//imagens/ic_attributes.svg">Atributos</li>
                     </a>
                     <a href="">
-                        <li><img class="menu-icon" src=".//imagens/ic_monitor.svg">Monitor</li>
+                        <li><img class="menu-icon menu-select" src=".//imagens/ic_monitor.svg">Monitor</li>
                     </a>
                     <a href="">
                         <li><img class="menu-icon" src=".//imagens/ic_organization.svg">Organizações</li>
@@ -101,24 +101,42 @@
             </section>
 
             <section class="container-main-content">
+
                 <header class="header-container-main-content">
                     <div class="search-bar" id="search-bar">
                         <input type="text" placeholder="Search">
                     </div>
                     <span class="header-container-text">Protocolo</span>
                 </header>
+                <div class="chart-container">
+                    <div class="content-chart">
+                        <div id="chart"></div>
+                        <span class="description-chart">Pré Processamento</span>
+                    </div>
+                    <div class="content-chart">
+                        <div id="chart2"></div>
+                        <span class="description-chart">Procesamento</span>
+                    </div>
+                </div>
             </section>
-            <!-- Apesar de estar com footer -->
-            <section class="footer-content">
-                <a href=""><span class="footer-content-text">Consultas em Análise<i
-                            class="fa-solid fa-angle-up arrow-icon"></i></span></a>
+            <section class="container-main-content">
+
+                <header class="header-container-main-content">
+                    <div class="search-bar" id="search-bar2">
+                        <input type="text" placeholder="Search">
+                    </div>
+                    <span class="header-container-text">Consultas em Análise</span>
+                </header>
+
             </section>
-        </main>
 
     </div>
-    <script src="./Javascript/javascript.js"></script>
-    <script src="./Javascript/menu-slide.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="./Javascript/chart.js"></script>
+    <script src="./Javascript/search-slide.js"></script>
     <script src="https://kit.fontawesome.com/67f01a5142.js"></script>
+    <script src="./Javascript/menu-slide.js"></script>
+
 
 </body>
 
