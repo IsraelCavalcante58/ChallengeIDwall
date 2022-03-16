@@ -11,15 +11,19 @@ print bonitinho
 
 
 ## Tecnologias Utilizadas
-
+ 
 - HTML
 - CSS
 - JavaScript
-- 
+- Git
+- Prototipação no [Figma](https://www.figma.com/file/CWUuptcAsWUtcNnrZzu4aR/Idwall?node-id=4%3A6)
 
 ## Autores
 Israel Cavalcante
 [LinkedIn](https://www.linkedin.com/in/israelcavalcante58/)
+
+Jéssica Viana
+[LinkedIn](https://www.linkedin.com/in/vjessica/)
 
 Gustavo Lima 
 [LinkedIn](https://www.linkedin.com/in/gustavo-lima-37083386/)
