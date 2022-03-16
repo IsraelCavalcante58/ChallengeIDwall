@@ -293,9 +293,8 @@ margin-right: 16px;
 }
 
 .header-container-main-content{
-  display: inline-block;
-  position: relative;
-  width: 100%;
+  position: absolute;
+  width: 94%;
   height: 60px;
   background-color: #6B31FF;
   border-radius: 10px 10px 0 0;
@@ -316,6 +315,7 @@ margin-right: 16px;
 /* Chart Conteúdo Principal */
 
 .chart-container{
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-self: center;
@@ -324,6 +324,7 @@ margin-right: 16px;
   text-align: center;
 }
 .content-chart{
+  position: relative;
   display: flex;
   flex-direction: column;
 
