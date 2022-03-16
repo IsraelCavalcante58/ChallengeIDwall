@@ -117,7 +117,6 @@ margin-right: 16px;
 }
 
 .header-main-content{
-
   width: 100%;
   height: 100px;
   background-color: #262626;
@@ -133,36 +132,35 @@ margin-right: 16px;
 }
 
 .container-main-content{
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 96%;
+  width: 94%;
   height: calc(100% - 373px);
   background-color: #FAFAFA;
-  margin-left: 2.57rem;
+  margin: auto;
   margin-top: 2rem;
   border-radius: 10px;
   box-shadow: 2px 3px 4px  #00000026;
 }
 
 .header-container-main-content{
+  display: inline-block;
   position: relative;
   width: 100%;
-  height: 80px;
+  height: 60px;
   background-color: #6B31FF;
   border-radius: 10px 10px 0 0;
-
-
 }
 
 .header-container-text{
-  top: 17%;
   position: absolute;
-  left: 43%;
-  font-size: 2.5rem;
+  margin-left: auto;
+  font-size: 2.0rem;
+  left: 50%;
+  top: 20%;
   color: white;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 /* Conteudo Principal */
@@ -173,12 +171,11 @@ margin-right: 16px;
 .search-bar {
   margin-left: 10px;
   position: absolute;
-  margin-top: 21px;
+  margin-top: 10px;
   height: 40px;
   display: flex;
   width: 100%;
-  max-width: 400px;
-  padding-left: 16px;
+  max-width: 300px;
   border-radius: 4px;
 }
 
@@ -232,10 +229,10 @@ margin-right: 16px;
   display: flex;  
   justify-content: space-around;
   width: 28rem;
-  height: 56px;
+  height: 40px;
   background-color: #F3F2FF;
   box-shadow: 2px 3px 4px  #00000026;
-  border-radius: 28px;
+  border-radius: 20px;
   margin: 20px 40px;
 }
 
@@ -244,7 +241,7 @@ margin-right: 16px;
 }
 
 .status-icon{
-  margin-top: 12px;
+  margin-top: 6px;
   font-size: 30px;
   position: relative;
   align-self: flex-start;
@@ -333,9 +330,9 @@ aside a div{
 
 .footer-content{
   display: flex;
-  height: 100px;
-  margin-left: 2.57rem;
-  width: 96%;
+  height: 60px;
+  margin: auto;
+  width: 94%;
   margin-top: 0.9rem;
   box-shadow: 2px 3px 4px  #00000026;
   border-radius: 10px;
@@ -345,9 +342,9 @@ aside a div{
 }
 
 .footer-content-text{
-  font-size: 2.5rem;
+  font-size: 2.0rem;
   color: white;
-  font-weight: bold;
+  font-weight: 500;
   margin-left:1rem;
 }
 
@@ -396,9 +393,6 @@ aside a div{
   color: #FFF;
   font-weight: 700;
 }
-
-
-
 
 .logout-icon{
 margin-right: 16px;
