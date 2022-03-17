@@ -10,13 +10,116 @@
 
 html, body{
   height: 100%;
-  
+  background: #FAFAFA;
+
 }
 
 a, a:visited{
   text-decoration: none;
   color: white;
 }
+/* Configs de tabela de usuários */
+
+.user-table tr {
+  border: 1px solid #262626;
+}
+.user-table thead tr{
+    border: none;
+  }
+
+.user-table th {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  color:#000;
+  padding:5px;
+  background:#F1EFEF;
+  box-shadow: 2px 3px 4px  #00000026;
+}
+
+.user-table td {
+  position: relative;
+  padding:5px;
+  border: 0.5px solid;
+  border-color: #000;
+  text-align: center;
+}
+
+.user-table tr.borderless{
+  border:none;
+  padding:5px;
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 0.8rem;
+  font-style: italic;
+  text-align: left;
+}
+.user-table td.borderless{
+  position: relative;
+  display: inline-flexbox;
+  border:none;
+  padding:5px;
+  height: 2rem;
+  border: 1px;
+  border-color: #000;
+  line-height: 2.5rem;
+  font-size: 0.8rem;
+  font-style: italic;
+  text-align: left;
+}
+
+.labeled-row{
+padding-left: 30px;
+}
+
+.table-panel{
+  padding-top: 3rem;
+  position: relative;
+  display:  block;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 94%;
+  min-height: 70vh;
+  background-color: #FAFAFA;
+  margin: auto;
+  margin-top: 2rem;
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px  #00000026;
+}
+  
+td img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+td input[type="checkbox"]{
+  position: absolute !important;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 12px;
+  transition: all 0.3s;
+  box-sizing: border-box;
+  display: block !important;
+}
+
+.pannel-button{
+  background: #6300ff;
+  width: 36PX;
+  height: 28px;
+  border-radius: 2px;
+}
+
+.button-container{
+  position: relative;
+  width: fit-content;
+  left: 90%;
+  margin-bottom: 1.5rem;
+}
+/* fim configs de tabela de usuários */
+
+
 /* Configurações do Container principal que engloba todo o conteúdo da página */
 
 .container{
@@ -84,7 +187,6 @@ a, a:visited{
 }
 
 
-
 .logout{
   left: 0;
   bottom: 24px;
@@ -98,6 +200,7 @@ a, a:visited{
   width: 100%;
   height: 50px;
 }
+
 .logout-icon{
 margin-right: 16px;
 }
@@ -107,7 +210,6 @@ margin-right: 16px;
 }
 
 .logo{
-  
   width: 200px;
   height: 100px;
   margin: 0 25px;
@@ -172,14 +274,7 @@ margin-right: 16px;
          cursor: pointer;
          text-decoration: none;
     }
-     input[type="checkbox"]:checked ~ #sidebarMenu {
-         transform: translateX(0);
-    }
-     input[type=checkbox] {
-         transition: all 0.3s;
-         box-sizing: border-box;
-         display: none;
-    }
+
      .sidebarIconToggle {
         
          transition: all 0.3s;
@@ -326,8 +421,6 @@ margin-right: 16px;
     text-align: center;
 }
 
-
-
 .header-align{
   margin-top: 0.5rem;
   width: 66%;
@@ -365,6 +458,7 @@ margin-right: 16px;
   font-weight: bold;
   font-size: 2rem;
 }
+
 .details-process span{
     position: absolute;
     left: 8.95rem;
@@ -375,7 +469,6 @@ margin-right: 16px;
 .apexcharts-legend-series{
       margin-top: 25px !important;
 }
-
 
 .chart-container{
     margin-bottom: 113px;
@@ -416,7 +509,22 @@ margin-right: 16px;
   border-radius: 4px;
 }
 
-.search-bar input {
+.standalone-search-bar{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  height: 40px;
+  display: flex;
+  width: 100%;
+  max-width: 300px;
+  background: #FAFAFA;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+
+.standalone-search-bar input, .search-bar input {
   width: 100%;
   height: 100%;
   border: none;
@@ -628,6 +736,9 @@ margin-right: 16px;
 }
 /* Fim navegação */
 
+ input[type="checkbox"]:checked ~ #sidebarMenu {
+    transform: translateX(0);
+}
  #sidebarMenu {
         top: 0px;
          z-index: 98;
@@ -913,3 +1024,98 @@ button {
 
 
 
+    
+input[type=checkbox] {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    /* display: none; */
+} */
+.sidebarIconToggle {
+  
+    transition: all 0.3s;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: absolute;
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+    top: 36px;
+    left: 15px;
+    height: 22px;
+    width: 22px;
+
+}
+.spinner {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: white;
+}
+.spinner-inactive{
+background-color: black !important;
+}
+.horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+}
+.diagonal.part-1 {
+    position: relative;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    float: left;
+}
+.diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    opacity: 0;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(135deg);
+    margin-top: 8px;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(-135deg);
+    margin-top: -9px;
+}
+.logo-mobile-animacao{
+    color: black;
+    font-family: poetsenone;
+    margin-left: 45%;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.table-panel{
+  position: relative;
+}
+.user-table {
+  position: absolute;
+  border: 0px ;
+  border-color: #FFF;
+  left: 50%;
+  width: 90%;
+  transform: translateX(-50%);
+  border-collapse:collapse;
+  padding:5px;
+}
+
+td img.icon-small{
+  height: 24px;
+  width: 24px;
+  bottom: 50%;
+}

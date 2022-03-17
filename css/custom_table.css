@@ -1,0 +1,118 @@
+.tab-list{
+    height: 83%;
+  }
+  
+  .table-consultas{
+    padding-bottom: 2px;
+  }
+  
+  .consultas-content{
+        display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 94%;
+      height: 37rem;
+      background-color: #FAFAFA;
+      margin: auto;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 10px;
+  }
+  
+  table {
+      font-size: 2vmin;
+      width: 100%;
+      border-collapse: collapse;
+      border-radius: 10px;
+      overflow-y: scroll;
+      font-weight: 700;
+      margin-bottom: 10px;
+  }
+  
+  td {
+    border: 0px solid black;
+    height: 20px;
+    width: 50px;
+    text-align: center;
+    font-size: 2vmin;
+    white-space: nowrap;
+    padding: 15px 20px;
+  }
+  caption {
+    text-align: right;
+  }
+  th {
+    color: white;
+    padding: 20px 20px 20px 20px;
+  }
+  th:nth-child(1) {
+    background-color: #7887ab;
+    align-content: center;
+  }
+  th:nth-child(2) {
+    background-color: #4f628e;
+    align-content: center;
+  }
+  th:nth-child(3) {
+    background-color: #2e4172;
+    align-content: center;
+  }
+  th:nth-child(4) {
+    background-color: #162955;
+    align-content: center;
+  }
+  th:nth-child(5) {
+    background-color: #061539;
+    align-content: center;
+  }
+  tr:nth-child(2n) {
+    background: #ececec;
+  }
+  tr:nth-child(2n-1) {
+    background: #dbdbdb;
+  }
+  td:nth-child(2n) {
+    background: lightgray;
+  }
+  tr:nth-child(odd) td:nth-child(even) {
+    background: #e7e7e7;
+  }
+  tr:nth-child(even) td:nth-child(even) {
+    background: #f3f3f3;
+  }
+  button {
+    padding: 5px 20px;
+    background-color: #d3d3d3;
+    border-width: 1px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 1040px)
+  {
+  .header-align{
+        margin-bottom: 20px;
+  }
+  .details-protocol span{
+      font-size: 3vmin;
+      left: 7.5rem;
+      top: 7.875rem;
+  }
+  .details-process span{
+    top: 5.875rem !important;
+  }
+  
+  .description-chart{
+    margin-right: 1rem;
+  }
+  }
+  
+  @media (max-width: 626px){
+    .inactive-table{
+      display: none;
+      
+    }
+    .consultas-content{
+          height: 33rem;
+    }
+  }
+  
