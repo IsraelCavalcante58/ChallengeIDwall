@@ -102,7 +102,7 @@
                 </div>
 
             </section>
-            <section class="container-main-content">
+            <section id="container-main-content"class="container-main-content">
 
                 <header class="header-container-main-content">
                     <div class="search-bar" id="search-bar">
@@ -114,31 +114,97 @@
                 </header>
 
                 <div class="tab-protocol">
-                    <img src="" alt=""><div class="text-protocol">Resumo Geral</div>
-                    <div class="text-protocol">Lista de Protocolos</div>
+                    <div id="tab1"class="text-protocol tab-selected">Resumo Geral</div>
+                    <div id="tab2"class="text-protocol">Lista de Protocolos</div>
                 </div>
 
-                <div class="chart-container">
-                    <div class="details-protocol">
+                <!-- Tab Resumo Geral -->
+                <div class="chart-container chart-status">
+                    <div class="details-protocol chart-status">
                         <span>325</span>
                     </div>
-                    <div class="content-chart">
-                        <div id="chart"></div>
-                        <span class="description-chart">Pré Processamento</span>
+                    <div class="content-chart chart-status">
+                        <div id="chart" class="chart-status"></div>
+                        <span class="description-chart chart-status">Pré Processamento</span>
                     </div>
 
 
-                    <div class="details-protocol details-process">
+                    <div class="details-protocol details-process chart-status">
                         <span>100 / 125</span>
                     </div>
-                    <div class="content-chart">
-                        <div id="chart2"></div>
-                        <span class="description-chart">Processamento</span>
+                    <div class="content-chart chart-status">
+                        <div id="chart2" class="chart-status"></div>
+                        <span class="description-chart chart-status">Processamento</span>
                     </div>
-
                 </div>
+
+                <!--Tab Lista de Protocolos-->
+                                <div id="table-list">
+                                    <table id="table-status" class="tab-inactive">
+                                        <thead>
+                                            <tr>
+                                                <th class="inactive-table">Código</th>
+                                                <th class="inactive-table">Nome da Empresa</th>
+                                                <th>Protocolos Pré Processados</th>
+                                                <th>Protocolos em Processamento</th>
+                                                <th>Protocolos Processados</th>
+                                            </tr>
+                                        </thead>
+                                        <tr>
+                                            <td class="inactive-table">#021</td>
+                                            <td class="inactive-table">Ifood</td>
+                                            <td>46</td>
+                                            <td>14</td>
+                                            <td>18</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="inactive-table">#023</td>
+                                            <td class="inactive-table">Mercado Livre</td>
+                                            <td>86</td>
+                                            <td>14</td>
+                                            <td>18</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="inactive-table">#025</td>
+                                            <td class="inactive-table">Ponto Frio</td>
+                                            <td>6</td>
+                                            <td>14</td>
+                                            <td>16</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="inactive-table">#027</td>
+                                            <td class="inactive-table">Americanas</td>
+                                            <td>76</td>
+                                            <td>14</td>
+                                            <td>19</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="inactive-table">#307</td>
+                                            <td class="inactive-table">Bradesco</td>
+                                            <td>16</td>
+                                            <td>14</td>
+                                            <td>18</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="inactive-table">#402</td>
+                                            <td class="inactive-table">Localiza</td>
+                                            <td>66</td>
+                                            <td>14</td>
+                                            <td>20</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="inactive-table">#427</td>
+                                            <td class="inactive-table">Loggi</td>
+                                            <td>14</td>
+                                            <td>10</td>
+                                            <td>14</td>
+                                        </tr>
+
+                                    </table>
+                                </div>
+
             </section>
-            <section class="container-main-content">
+            <section class="consultas-content">
 
                 <header class="header-container-main-content">
                     <div class="search-bar" id="search-bar2">
@@ -148,10 +214,84 @@
                         <span class="header-container-text">Consultas em Análise</span>
                     </div>
                 </header>
+                <div class="table-consultas">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Código</th>
+                                <th>Quantidade de Consultas</th>
+                                <th>Nome do Serviço</th>
 
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td>#021</td>
+                            <td>Ifood</td>
+                            <td>46</td>
+
+                        </tr>
+                        <tr>
+                            <td>#023</td>
+                            <td>Mercado Livre</td>
+                            <td>86</td>
+
+                        </tr>
+                        <tr>
+                            <td>#025</td>
+                            <td>Ponto Frio</td>
+                            <td>6</td>
+
+                        </tr>
+                        <tr>
+                            <td>#027</td>
+                            <td>Americanas</td>
+                            <td>76</td>
+
+                        </tr>
+                        <tr>
+                            <td>#307</td>
+                            <td>Bradesco</td>
+                            <td>16</td>
+
+                        </tr>
+                        <tr>
+                            <td>#402</td>
+                            <td>Localiza</td>
+                            <td>66</td>
+
+                        </tr>
+                        <tr>
+                            <td>#427</td>
+                            <td>Loggi</td>
+                            <td>14</td>
+
+                        </tr>
+                        <tr>
+                            <td>#427</td>
+                            <td>Loggi</td>
+                            <td>14</td>
+
+                        </tr>
+                        <tr>
+                            <td>#427</td>
+                            <td>Loggi</td>
+                            <td>14</td>
+
+                        </tr>
+                        <tr>
+                            <td>#427</td>
+                            <td>Loggi</td>
+                            <td>14</td>
+
+                        </tr>
+                       
+                    </table>
+                </div>
             </section>
 
     </div>
+    <script src="./Javascript/tab.js"></script>
+
     <script src="./Javascript/menu-slide.js"></script>
     <script src="https://kit.fontawesome.com/67f01a5142.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
