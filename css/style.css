@@ -10,7 +10,8 @@
 
 html, body{
   height: 100%;
-  
+  background: #FAFAFA;
+
 }
 
 a, a:visited{
@@ -481,7 +482,22 @@ margin-right: 16px;
   border-radius: 4px;
 }
 
-.search-bar input {
+.standalone-search-bar{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  height: 40px;
+  display: flex;
+  width: 100%;
+  max-width: 300px;
+  background: #FAFAFA;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+
+.standalone-search-bar input, .search-bar input {
   width: 100%;
   height: 100%;
   border: none;
