@@ -19,7 +19,7 @@ var options = {
                 show: false
             }
         },
-        breakpoint: 858,
+        breakpoint: 1040,
         options: {
             chart: {
                 width: 300
@@ -27,7 +27,8 @@ var options = {
             legend: {
                 show: false
             }
-        }
+        },
+
     }],
     
 
@@ -106,10 +107,9 @@ var options2 = {
             },
             legend: {
                 show: false
-
             }
         },
-        breakpoint: 858,
+        breakpoint: 1040,
         options: {
             chart: {
                 width: 300
@@ -117,7 +117,7 @@ var options2 = {
             legend: {
                 show: false
             }
-        }
+        },
 
     }],
     
