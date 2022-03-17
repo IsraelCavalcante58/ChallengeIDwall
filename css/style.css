@@ -292,29 +292,36 @@ margin-right: 16px;
   box-shadow: 2px 3px 4px  #00000026;
 }
 
+.tab-selected{
+  height: 2.5rem !important;
+  box-shadow: 2px 3px 4px  #00000030;
 
+}
 .tab-protocol{
   box-shadow: 2px 3px 4px  #00000026;
 
   display: flex;
   justify-content: space-between;
 }
-.text-protocol{
-  
 
-    height: 2rem;
-    width: 49.8%;
-    background: #FFF;
-    color: rgb(0, 0, 0,0.5);
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-align: center;
+.tab-inactive{
+  display: none ;
 }
-
 .tab-active{
-  height: 3rem;
-  box-shadow: 0 0 0 2px rgba(134, 140, 160, 0.02);
+  display: block;
 }
+.text-protocol{
+  margin-top: 0.5rem;
+  height: 2rem;
+  width: 49.8%;
+  background: #FFF;
+  color: rgb(0, 0, 0,0.5);
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+
 
 .header-align{
   margin-top: 0.5rem;
@@ -369,6 +376,7 @@ margin-right: 16px;
 
 
 .chart-container{
+  margin-top: 3.75rem;
   display: flex;
   justify-content: space-between;
   align-self: center;
@@ -390,6 +398,9 @@ margin-right: 16px;
 /* Fim Chart Conteúdo Principal */
 
 /* Searchbar */
+.search-bar-align{
+  margin-top: 4px !important;
+}
 
 .search-bar {
   margin-left: 10px;
@@ -678,9 +689,7 @@ margin-right: 16px;
          width: 100%;
          background-color: white;
     }
-    .spinner-inactive{
-      background-color: black !important;
-    }
+
      .horizontal {
          transition: all 0.3s;
          box-sizing: border-box;

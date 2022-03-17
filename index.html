@@ -112,26 +112,27 @@
                 </header>
 
                 <div class="tab-protocol">
-                    <img src="" alt=""><div class="text-protocol">Resumo Geral</div>
-                    <div class="text-protocol">Lista de Protocolos</div>
+                    <div id="tab1"class="text-protocol tab-selected">Resumo Geral</div>
+                    <div id="tab2"class="text-protocol">Lista de Protocolos</div>
                 </div>
 
-                <div class="chart-container">
-                    <div class="details-protocol">
+
+                <div class="chart-container chart-status">
+                    <div class="details-protocol chart-status">
                         <span>325</span>
                     </div>
-                    <div class="content-chart">
-                        <div id="chart"></div>
-                        <span class="description-chart">Pré Processamento</span>
+                    <div class="content-chart chart-status">
+                        <div id="chart" class="chart-status"></div>
+                        <span class="description-chart chart-status">Pré Processamento</span>
                     </div>
 
 
-                    <div class="details-protocol details-process">
+                    <div class="details-protocol details-process chart-status">
                         <span>100 / 125</span>
                     </div>
-                    <div class="content-chart">
-                        <div id="chart2"></div>
-                        <span class="description-chart">Processamento</span>
+                    <div class="content-chart chart-status">
+                        <div id="chart2" class="chart-status"></div>
+                        <span class="description-chart chart-status">Processamento</span>
                     </div>
 
                 </div>
@@ -150,6 +151,8 @@
             </section>
 
     </div>
+    <script src="./Javascript/tab.js"></script>
+
     <script src="./Javascript/menu-slide.js"></script>
     <script src="https://kit.fontawesome.com/67f01a5142.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
