@@ -8,6 +8,56 @@
         <title>Usuários</title>
     </head>
     <body>
+        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+        <label for="openSidebarMenu" class="sidebarIconToggle">
+
+            <div id="spinner1" class="spinner diagonal part-1"></div>
+            <div id="spinner2" class="spinner horizontal"></div>
+            <div id="spinner3" class="spinner diagonal part-2"></div>
+
+        </label>
+
+        <div id="sidebarMenu">
+
+            <nav class="navbar sidebarMenuInner">
+                <header class="header-navbar">
+                    <img class="logo" src=".//imagens/Logotipo idwall.svg" alt=""> <!-- Aqui será a logo-->
+                </header>
+                <ul>
+                    <a href="">
+                        <li><img class="menu-icon" src=".//imagens/ic_protocol.svg">Protocolo</li>
+                    </a>
+                    <a href="">
+                        <li><img class="menu-icon" src=".//imagens/ic_document.svg">Documento</li>
+                    </a>
+                    <a href="">
+                        <li><img class="menu-icon" src=".//imagens/ic_users.svg">Usuários</li>
+                    </a>
+                    <a href="">
+                        <li><img class="menu-icon" src=".//imagens/ic_fonts.svg">Fontes</li>
+                    </a>
+                    <a href="">
+                        <li><img class="menu-icon" src=".//imagens/ic_matrix.svg">Matrizes</li>
+                    </a>
+                    <a href="">
+                        <li><img class="menu-icon" src=".//imagens/ic_rules.svg">Regras</li>
+                    </a>
+                    <a href="">
+                        <li><img class="menu-icon" src=".//imagens/ic_attributes.svg">Atributos</li>
+                    </a>
+                    <a href="">
+                        <li  class="menu-selected"><img class="menu-icon" src=".//imagens/ic_monitor.svg">Monitor</li>
+                    </a>
+                    <a href="">
+                        <li><img class="menu-icon" src=".//imagens/ic_organization.svg">Organizações</li>
+                    </a>
+                </ul>
+                <div class="logout">
+                    <span class="fa-solid fa-arrow-right-from-bracket logout-icon"> <a href="#"></span><span
+                        class="">Sair</span></a>
+                </div>
+            </nav>
+        </div>
         <main class="main-content">
             <header class="header-main-content">
                 <h2 class="header-main-content-description">Usuários</h2>
@@ -123,5 +173,10 @@
                 </div>
             </section>
         </main>
+        <script src="./Javascript/menu-slide.js"></script>
+        <script src="https://kit.fontawesome.com/67f01a5142.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+        <script src="./Javascript/chart.js"></script>
+        <script src="./Javascript/search-slide.js"></script>
     </body>
 </html>
