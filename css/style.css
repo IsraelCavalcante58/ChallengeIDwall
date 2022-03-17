@@ -284,12 +284,15 @@ margin-right: 16px;
   flex-direction: column;
   justify-content: space-between;
   width: 94%;
-  height: calc(100% - 373px);
+  height: 37rem;
   background-color: #FAFAFA;
   margin: auto;
-  margin-top: 2rem;
   border-radius: 10px;
   box-shadow: 2px 3px 4px  #00000026;
+}
+
+.box-shadow-inactive{
+  box-shadow: none;
 }
 
 .tab-selected{
@@ -301,6 +304,8 @@ margin-right: 16px;
   box-shadow: 2px 3px 4px  #00000026;
   display: flex;
   justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .tab-inactive{
@@ -375,7 +380,6 @@ margin-right: 16px;
     display: flex;
     justify-content: space-between;
     align-self: center;
-    padding-bottom: 2rem;
     text-align: center;
 }
 .content-chart{
@@ -737,8 +741,25 @@ margin-right: 16px;
 /* Teste */
 
 .tab-list{
-  height: 71%;
+  height: 70%;
 }
+
+.table-consultas{
+  padding-bottom: 2px;
+}
+
+.consultas-content{
+      display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 94%;
+    height: 37rem;
+    background-color: #FAFAFA;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+
 
 
 table {
@@ -747,6 +768,7 @@ table {
     border-radius: 10px;
     overflow-y: scroll;
     margin-top: -16px;
+    font-weight: 700;
 }
 
 td {
@@ -756,7 +778,6 @@ td {
   text-align: center;
   font-size: 14px;
   white-space: nowrap;
-  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
   padding: 15px 20px;
 }
 caption {

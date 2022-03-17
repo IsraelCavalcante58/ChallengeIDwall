@@ -2,12 +2,15 @@ var chartStatus = document.querySelectorAll('div.chart-status')
 var chartStatusSpan = document.querySelectorAll('span.chart-status')
 var tableStatus = document.getElementById('table-status')
 var tableList = document.getElementById('table-list')
+var containerMainContent = document.getElementById('container-main-content')
 console.log(tableList)
 
 var resumoGeral = document.getElementById('tab1');
 var listaProtocolo = document.getElementById('tab2');
     
 resumoGeral.onclick = function () {
+    containerMainContent.classList.remove('box-shadow-inactive');
+
     tableList.classList.remove('tab-list')
     tableStatus.classList.add('tab-inactive')
     if (!resumoGeral.classList.contains('tab-selected')){
@@ -25,7 +28,8 @@ resumoGeral.onclick = function () {
     }
 }
 listaProtocolo.onclick = function () {
-    tableList.classList.add('tab-list')
+    containerMainContent.classList.add('box-shadow-inactive');
+    tableList.classList.add('tab-list');
     if (!listaProtocolo.classList.contains('tab-selected')){
         listaProtocolo.classList.add('tab-selected');
         resumoGeral.classList.remove('tab-selected');
