@@ -75,18 +75,18 @@ padding-left: 30px;
 
 .table-panel{
   padding-top: 3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 94%;
-    min-height: 70vh;
-    background-color: #FAFAFA;
-    margin: auto;
-    margin-top: 2rem;
-    border-radius: 6px;
-    box-shadow: 2px 2px 2px  #00000026;
-  
-  }
+  position: relative;
+  display:  block;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 94%;
+  min-height: 70vh;
+  background-color: #FAFAFA;
+  margin: auto;
+  margin-top: 2rem;
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px  #00000026;
+}
   
 td img {
   position: absolute;
@@ -104,7 +104,19 @@ td input[type="checkbox"]{
   display: block !important;
 }
 
+.pannel-button{
+  background: #6300ff;
+  width: 36PX;
+  height: 28px;
+  border-radius: 2px;
+}
 
+.button-container{
+  position: relative;
+  width: fit-content;
+  left: 90%;
+  margin-bottom: 1.5rem;
+}
 /* fim configs de tabela de usuários */
 
 
