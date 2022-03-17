@@ -1,6 +1,6 @@
 var options = {
-    series: [100, 125],
-    labels: ['Pré-Processamento', 'Que foram cancelados'],
+    series: [325],
+    labels: ['Pré-Processamento'],
     chart: {
         width: 500,
         type: 'donut',
@@ -33,11 +33,9 @@ var options = {
 
 
     fill: {
-        colors: ['#AD6800', '#FAAD14' ],
-        opacity: 0.9,
-        type: 'solid',
-        
-    },
+        colors: ['#4E7AC7'],
+        type: "gradient",
+},
     legend: {
         show: true,
         showForSingleSeries: false,
@@ -58,7 +56,7 @@ var options = {
         offsetX: 0,
         offsetY: 0,
         labels: {
-            colors: ['#AD6800', '#FAAD14'],
+            colors: ['#4E7AC7'],
             useSeriesColors: false
         },
         markers: {
@@ -66,7 +64,7 @@ var options = {
             height: 12,
             strokeWidth: 0,
             strokeColor: '#fff',
-            fillColors: ['#AD6800', '#FAAD14'],
+            fillColors: ['#4E7AC7'],
             radius: 12,
             customHTML: undefined,
             onClick: undefined,
@@ -126,10 +124,9 @@ var options2 = {
 
 
     fill: {
-        colors: ['#0087fd','#00e396' ],
-        opacity: 0.9,
-        type: 'solid',
-        
+        colors: ['#FF8500','#04BF8A'],
+        opacity: 1,
+        type: "gradient",
     },
     legend: {
         show: true,
@@ -151,7 +148,7 @@ var options2 = {
         offsetX: 0,
         offsetY: 0,
         labels: {
-            colors: [],
+            colors: ['#FF8500', '#04BF8A'],
             useSeriesColors: false
         },
         markers: {
@@ -159,7 +156,7 @@ var options2 = {
             height: 12,
             strokeWidth: 0,
             strokeColor: '#fff',
-            fillColors: ['undefined'],
+            fillColors: ['#FF8500', '#04BF8A'],
             radius: 12,
             customHTML: undefined,
             onClick: undefined,
