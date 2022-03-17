@@ -10,7 +10,7 @@ var options = {
         enabled: false
     },
     responsive: [{
-        breakpoint: 1456,
+        breakpoint: 1457,
         options: {
             chart: {
                 width: 400
@@ -18,7 +18,8 @@ var options = {
             legend: {
                 show: false
             }
-        },
+        }
+    }, {
         breakpoint: 1040,
         options: {
             chart: {
@@ -27,9 +28,20 @@ var options = {
             legend: {
                 show: false
             }
+        }
+    }, {
+        breakpoint: 548,
+        options: {
+            chart: {
+                width: 200
+            },
+            legend: {
+                show: false
+            }
         },
-
-    }],
+        }],
+    
+  
     
 
 
@@ -100,7 +112,7 @@ var options2 = {
         enabled: false
     },
     responsive: [{
-        breakpoint: 1456,
+        breakpoint: 1457,
         options: {
             chart: {
                 width: 400
@@ -108,7 +120,8 @@ var options2 = {
             legend: {
                 show: false
             }
-        },
+        }
+    }, {
         breakpoint: 1040,
         options: {
             chart: {
@@ -117,8 +130,17 @@ var options2 = {
             legend: {
                 show: false
             }
+        }
+    }, {
+        breakpoint: 548,
+        options: {
+            chart: {
+                width: 200
+            },
+            legend: {
+                show: false
+            }
         },
-
     }],
     
 
