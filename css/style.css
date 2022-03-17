@@ -292,20 +292,48 @@ margin-right: 16px;
   box-shadow: 2px 3px 4px  #00000026;
 }
 
+
+.tab-protocol{
+  box-shadow: 2px 3px 4px  #00000026;
+
+  display: flex;
+  justify-content: space-between;
+}
+.text-protocol{
+  
+
+    height: 2rem;
+    width: 49.8%;
+    background: #FFF;
+    color: rgb(0, 0, 0,0.5);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tab-active{
+  height: 3rem;
+  box-shadow: 0 0 0 2px rgba(134, 140, 160, 0.02);
+}
+
+.header-align{
+  margin-top: 0.5rem;
+  width: 66%;
+}
+
 .header-container-main-content{
-  position: absolute;
-  width: 94%;
+  
+  text-align: center;
+  display: flex;
+  width: 100%;
   height: 60px;
   background-color: #6B31FF;
   border-radius: 10px 10px 0 0;
 }
 
+
 .header-container-text{
-  position: absolute;
-  margin-left: auto;
   font-size: 2.0rem;
-  left: 46%;
-  top: 20%;
   color: white;
   font-weight: 500;
 }
@@ -315,13 +343,36 @@ margin-right: 16px;
 /* Chart Conteúdo Principal */
 
 
+.details-protocol{
+  position: relative;
+}
+
+.details-protocol span{
+  position: absolute;
+  left: 8.75rem ;
+  top: 7.875rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.details-process span{
+  position: absolute;
+  left: 8.75rem ;
+  
+    top: 5.875rem;
+
+  font-weight: bold;
+  font-size: 2rem;
+}
+.apexcharts-legend-series{
+      margin-top: 25px !important;
+}
+
 
 .chart-container{
   display: flex;
   justify-content: space-between;
   align-self: center;
   padding-bottom: 4rem;
-  padding-top: 10rem;
   text-align: center;
 }
 .content-chart{
@@ -330,6 +381,7 @@ margin-right: 16px;
 
 }
 .description-chart{
+  color: rgb(0, 0, 0,0.5);
   font-size: 1.5rem;
   margin-right: 9rem;
 }
@@ -341,7 +393,6 @@ margin-right: 16px;
 
 .search-bar {
   margin-left: 10px;
-  position: absolute;
   margin-top: 10px;
   height: 40px;
   display: flex;
@@ -545,6 +596,11 @@ aside a div{
   color: #FFF;
   font-weight: 700;
 }
+.menu-selected{
+  background-color: #5400AF;
+  color: #FFF;
+  font-weight: 700;
+}
 
 .logout-icon{
 margin-right: 16px;
@@ -604,7 +660,7 @@ margin-right: 16px;
          transition: all 0.3s;
          box-sizing: border-box;
          cursor: pointer;
-         position: absolute;
+         position: fixed;
          z-index: 99;
          height: 100%;
          width: 100%;
