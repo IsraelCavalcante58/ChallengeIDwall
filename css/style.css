@@ -948,12 +948,20 @@ button {
 
 @media (max-width: 1040px)
 {
+
 .header-align{
       margin-bottom: 20px;
 }
 
 .description-chart{
   margin-right: 1rem;
+}
+ .details-protocol span{
+    left: 7.5rem;
+    top: 7.875rem;
+}
+  .details-process span{
+    top: 5.875rem;
 }
 }
 
@@ -1000,17 +1008,7 @@ button {
 }
 
 }
-@media (max-width: 1040px){
-  
-  .details-protocol span{
-    left: 7.5rem;
-    top: 7.875rem;
-}
-  .details-process span{
-    top: 5.875rem !important;
-}
 
-}
 @media (max-width: 548px){
   
   .details-protocol span{
@@ -1018,7 +1016,7 @@ button {
     top: 5.7rem;
 }
 .details-process span {
-    top: 6.875rem !important;
+    top: 3.875rem !important;
 }
 }
 

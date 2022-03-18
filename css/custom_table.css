@@ -87,32 +87,5 @@
     cursor: pointer;
   }
   
-  @media (max-width: 1040px)
-  {
-  .header-align{
-        margin-bottom: 20px;
-  }
-  .details-protocol span{
-      font-size: 3vmin;
-      left: 7.5rem;
-      top: 7.875rem;
-  }
-  .details-process span{
-    top: 5.875rem !important;
-  }
-  
-  .description-chart{
-    margin-right: 1rem;
-  }
-  }
-  
-  @media (max-width: 626px){
-    .inactive-table{
-      display: none;
-      
-    }
-    .consultas-content{
-          height: 33rem;
-    }
-  }
+
   
