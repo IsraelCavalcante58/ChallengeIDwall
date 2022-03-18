@@ -69,7 +69,7 @@ var options = {
         offsetX: 0,
         offsetY: 0,
         labels: {
-            colors: ['#4E7AC7'],
+            colors: ['black'],
             useSeriesColors: false
         },
         markers: {
@@ -77,7 +77,7 @@ var options = {
             height: 12,
             strokeWidth: 0,
             strokeColor: '#fff',
-            fillColors: ['#4E7AC7'],
+            fillColors: ['#c7417b'],
             radius: 12,
             customHTML: undefined,
             onClick: undefined,
@@ -85,7 +85,7 @@ var options = {
             offsetY: 0
         },
         itemMargin: {
-            horizontal: 5,
+            horizontal: 0,
             vertical: 0
         },
         onItemClick: {
@@ -146,7 +146,7 @@ var options2 = {
 
 
     fill: {
-        colors: ['#FF8500','#04BF8A'],
+        colors: ['#226eb3','#319dff'],
         opacity: 1,
         type: "gradient",
     },
@@ -178,7 +178,7 @@ var options2 = {
             height: 12,
             strokeWidth: 0,
             strokeColor: '#fff',
-            fillColors: ['#FF8500', '#04BF8A'],
+            fillColors: ['#226eb3', '#319dff'],
             radius: 12,
             customHTML: undefined,
             onClick: undefined,
