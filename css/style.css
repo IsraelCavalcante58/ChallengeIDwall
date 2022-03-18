@@ -856,7 +856,7 @@ margin-right: 16px;
     }
 
 
-/* Teste */
+/* Abas Resumo Geral / Lista de Protocolos */
 
 .tab-list{
   height: 83%;
@@ -877,15 +877,6 @@ margin-right: 16px;
     margin-bottom: 1rem;
     border-radius: 10px;
 }
-
-
-
-
-
-
-
-
-
 
 input[type=checkbox] {
     transition: all 0.3s;
