@@ -46,7 +46,7 @@ var options = {
 
 
     fill: {
-        colors: ['#4E7AC7'],
+        colors: ['#c7417b'],
         type: "gradient",
 },
     legend: {

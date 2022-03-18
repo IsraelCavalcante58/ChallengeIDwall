@@ -2,22 +2,7 @@
     height: 83%;
   }
   
-  .table-consultas{
-    padding-bottom: 2px;
-  }
-  
-  .consultas-content{
-        display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      width: 94%;
-      height: 37rem;
-      background-color: #FAFAFA;
-      margin: auto;
-      margin-top: 1rem;
-      margin-bottom: 1rem;
-      border-radius: 10px;
-  }
+
   
   table {
       font-size: 2vmin;
@@ -46,23 +31,23 @@
     padding: 20px 20px 20px 20px;
   }
   th:nth-child(1) {
-    background-color: #7887ab;
+    background-color: #557a99 ;
     align-content: center;
   }
   th:nth-child(2) {
-    background-color: #4f628e;
+    background-color:  #507699 ;
     align-content: center;
   }
   th:nth-child(3) {
-    background-color: #2e4172;
+    background-color: #436c99 ;
     align-content: center;
   }
   th:nth-child(4) {
-    background-color: #162955;
+    background-color:  #316299;
     align-content: center;
   }
   th:nth-child(5) {
-    background-color: #061539;
+    background-color: #0f5699;
     align-content: center;
   }
   tr:nth-child(2n) {
