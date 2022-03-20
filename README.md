@@ -2,7 +2,7 @@
 
 Esse projeto foi criado para a Enterprise Challenge FIAP x idwall, colocando em prática os conhecimentos de HTML, CSS e JavaScript adquiridos ao longo da fase 4 do curso de Análise e Desenvolvimento de Sistemas.
 
-O objetivo do projeto foi criar uma interface e experiência mais agradável ao usuário, mantendo a identidade da idwall e seguindo as boas práticas. Utilizando os conceitos de html, css e js para estruturar o layout,  posicionar e estilizar os elementos, contando também com plugins Jquery.
+O objetivo do projeto foi criar uma interface e experiência mais agradável ao usuário, mantendo a identidade da idwall e seguindo as boas práticas. Utilizando os conceitos de html, css e js para estruturar o layout, posicionar e estilizar os elementos.
 
 ## Layout do projeto
 
