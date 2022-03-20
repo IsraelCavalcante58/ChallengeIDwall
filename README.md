@@ -6,10 +6,9 @@ O objetivo do projeto foi criar uma interface e experiência mais agradável ao 
 
 ## Layout do projeto
 
-![Layout da página Monitor](https://imgur.com/Lci69IM)
+![Layout da página Monitor](https://i.postimg.cc/jdMg804p/monitormenu.png)](https://postimg.cc/QHWJtzPm)
 
-![Layout da página Usuários](https://imgur.com/Lci69IM)
-
+![Layout da página Usuários](https://i.postimg.cc/CxdvXPvz/usuarios.png)](https://postimg.cc/qNVXCLHT)
 
 
 ## Tecnologias Utilizadas
