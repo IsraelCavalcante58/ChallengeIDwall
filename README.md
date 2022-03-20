@@ -6,7 +6,9 @@ O objetivo do projeto foi criar uma interface e experiência mais agradável ao 
 
 ## Layout do projeto
 
-print bonitinho
+![Layout da página Monitor](https://imgur.com/Lci69IM)
+
+![Layout da página Usuários](https://imgur.com/Lci69IM)
 
 
 
